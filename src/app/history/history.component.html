@@ -1,0 +1,22 @@
+<h1 class="main">Transaction History</h1>
+<div>
+    <div class="main">
+        <table>
+            <thead>
+                <tr>
+                    <th>Action</th>
+                    <th>Number of Tokens</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let entry of transactions">
+                    <td>{{entry.description}}</td>
+                    <td>{{entry.quantity}}</td>
+                    <td>${{entry.total}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button (click)="goToHomePage()">Go Back</button>
+</div>

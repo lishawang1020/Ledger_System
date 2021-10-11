@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div class="container">
+        <h1>Welcome!</h1>
+    </div>
+<button (click)="decreateBalance()">PLAY SONIC ADVANTURE (Price: 4 tokens) </button>
+<p class="balance">Current Token Balance: {{balance}}</p>
+<form #buyToken = "ngForm" (ngSubmit)="onSubmit(quantityInput.value)" >
+    <label for="quantityInput">Please enter the number of tokens you wish to purchase: </label>
+    <input #quantityInput type="number" id="quantityInput" name = "quantity" placeholder="Numebr of tokens" ngModel>
+    <input type = "submit" value = "BUY">
+ </form>
+ <p class="price">Token Price: $0.25/token</p>
+ <a routerLink="/history-component" routerLinkActive="active">View Transaction History</a>
+</div>

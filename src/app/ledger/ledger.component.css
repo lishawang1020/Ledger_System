@@ -1,0 +1,47 @@
+.container {
+  display: block;
+  justify-content: center;
+}
+
+h1 {
+  position: fixed;
+  left: 46%;
+  padding-top: 50px;
+}
+
+button {
+  position: fixed;
+  left: 41%;
+  margin-top: 150px;
+  padding: 20px 20px 20px 20px;
+}
+
+.balance {
+  position: fixed;
+  left: 45%;
+  margin-top: 230px;
+  font-size: large;
+}
+
+form {
+  position: fixed;
+  left: 35%;
+  margin-top: 400px;
+}
+
+#quantityInput {
+  margin-left: 5px;
+}
+
+.price {
+  position: fixed;
+  left: 46%;
+  font-size: 12px;
+  margin-top: 430px;
+}
+
+a {
+  position: fixed;
+  left: 45%;
+  margin-top: 470px;
+}
